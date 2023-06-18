@@ -55,9 +55,9 @@
     text-align: center;
 }
 
-.header-links > p {
+.header-links > a {
     font-size: 18px;
-    color: grey;
+    color: white;
     display: inline;
     background: #1F2937;
 }
@@ -111,18 +111,17 @@
 .middle1-squares {
     display: flex;
     flex: 1;
-    gap: 60px;
+    gap: 90px;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 10% 2% 10%;
 }
 
 .middle1-captions {
     display: flex;
     flex: 1;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     font-size: 12px;
     margin: 0px 10% 0px 11.55%;
 }
@@ -142,6 +141,17 @@
 
 .middle2-rectangle {
     background: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 10%;
+}
+
+.quote > p {
+    text-align: center;
 }
 
 .bottom-rectangle {
