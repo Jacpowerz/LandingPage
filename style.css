@@ -188,10 +188,19 @@
 }
 
 .footnote-rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 5vh;
     background: #1F2937;
     position: absolute;
     bottom: 0;
     width: 100%;
     max-width: 100%;
+}
+
+.footnote-rectangle {
+    text-align: center;
+    font-size: 18px;
+    color: white;
 }
