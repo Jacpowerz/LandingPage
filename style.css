@@ -155,8 +155,36 @@
 }
 
 .bottom-rectangle {
-  background: white;
-  position: relative;
+    background: white;
+    position: relative;
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 75vw;
+    margin: 10vh 20%;
+    border-radius: 10px;
+    background: #3882f6;
+    gap: 30%;
+}
+
+.call-to-action > button {
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+    background: #3882f6;
+    border: solid white 5px;
+    color: white;
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+.call-to-action-section1 {
+    color: white;
+    margin-left: 10%;
 }
 
 .footnote-rectangle {
