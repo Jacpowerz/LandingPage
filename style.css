@@ -23,6 +23,16 @@
 
 .top-rectangle {
     background: #1F2937;
+    position: relative;
+}
+
+.header {
+    height: 5vh;
+    background: #1F2937;
+    border: solid 1px white;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
 }
 
 .middle1-rectangle {
