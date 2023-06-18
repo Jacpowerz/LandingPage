@@ -1,0 +1,39 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.background-rectangles {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 2px solid blue;
+    width: 35vw;
+    align-items: top;
+    justify-content: center;
+}
+
+.background-rectangles > div {
+    flex: 1;
+}
+
+.top-rectangle {
+    background: #1F2937;
+}
+
+.middle1-rectangle {
+    background: white
+}
+
+.middle2-rectangle {
+    background: #E5E7EB;
+}
+
+.bottom-rectangle {
+    background: white;
+}
